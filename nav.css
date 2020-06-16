@@ -1,0 +1,106 @@
+.navigation-wrapper{
+    background-color: black;
+    display: grid;
+    grid-template-columns: .4fr 1fr 1fr;
+}
+
+.img-wrapper img {
+    width: 200px;
+    height: 115px;
+    filter: invert(1);
+   
+}
+
+.img-wrapper2 img {
+    width: 500px;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nav-center-column h1 {
+    color: yellow;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.nav-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.50em;
+}
+.btn-wrapper {
+    width: 50vw;
+}
+
+.btn-wrapper button {
+    margin-left: 80px;
+    margin-top: 50px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    background-color: grey;
+}
+
+
+.word-wrapper {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 2em;
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+    color: white;
+    border: none;
+}
+
+.word-wrapper button {
+    background-color:black;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+.body-wrapper {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    background:gray;
+    border: none;
+}
+
+.footer-wrapper {
+    background-color: darkgray;
+    text-align: center;
+    display: grid;
+
+}
+
+.btn-wrapper2 button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  background-color: black;
+}
+
+.btn-wrapper2 {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr;
+}
+
